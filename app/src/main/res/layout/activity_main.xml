@@ -1,0 +1,57 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    android:scrollbars="none">
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="#3F51B5"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:text="Menores de 500,000"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:name="com.bellarix.automovil.FirstFragment"
+            android:id="@+id/firstFragment"
+            tools:layout="@layout/fragment_first" />
+        <TextView
+            android:background="#3F51B5"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:text="Menores de 500,000"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:name="com.bellarix.automovil.SecondFragment"
+            android:id="@+id/secondFragment"
+            tools:layout="@layout/fragment_second" />
+        <TextView
+            android:background="#3F51B5"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:text="Menores de 500,000"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:name="com.bellarix.automovil.ThirdFragment"
+            android:id="@+id/thirdFragment"
+            tools:layout="@layout/fragment_third" />
+</LinearLayout>
+</ScrollView>
